@@ -1,0 +1,84 @@
+/* body{
+    font-family:  'Baloo Bhai ' , cursive;
+} */
+
+/* Class6.html : css sheet */
+
+h1 {
+    background-color: rgb(199, 129, 129);
+    font-style: italic;
+    color: white;
+
+}
+
+div {
+    height: 50vh;
+    width: 50%;
+    color: "white";
+    background-color: rgb(203, 187, 151);
+    /* border-color: black;
+    border-width: 12px;
+    border-style: double; */
+    border: 2px solid black;
+    border-radius: 20px;
+    /* border-top-right-radius: 20px; */
+}
+
+div p {
+    color: white;
+}
+
+div p.para {
+    font-size: 50px;
+}
+
+p {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    /* padding: 20px 0px; */
+    /* padding: top-bottom  left right */
+    /* padding: 0px 0 0 20px; */
+    /* padding: top right  bottom left */
+    padding: 50px;
+
+/* padding : inside box space */
+/* margin: outside box space */
+}
+
+span{
+    color: rgb(202, 53, 23);
+    border: 2px solid black;
+    margin: 50px;
+    padding: 20px;
+}
+span:hover{
+    font-size: 60px;
+    background-color: aquamarine;
+    color: white;
+}
+.copyrights{
+    background-color: 0000;
+    /* color: white; */
+}
+h2{
+    color: rgb(202, 53, 23);
+    border: 2px solid black;
+    margin: 50px;
+    padding: 20px;
+    text-align: left;
+    /* text-shadow:  */
+    text-shadow: 2px 3px 2px yellow;
+
+}
+
+h3{
+    border: 2px solid black;
+    height: 100px;
+    overflow-y: auto;
+    /* overflow-x: auto; */
+
+}
+

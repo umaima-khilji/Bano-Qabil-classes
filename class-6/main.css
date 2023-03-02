@@ -1,0 +1,14 @@
+/* index.html css chet */
+
+.div{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+.mytext{
+    border: 2px solid black;
+    height: 50vh;
+    width: 50%;
+}
