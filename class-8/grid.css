@@ -1,0 +1,60 @@
+.parent{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 30px; */
+    grid-template-columns: repeat(4, 1fr);
+    /* 1 row main 4 colum */
+    row-gap: 40px;
+    column-gap: 10px;
+    /* justify-items: center;
+    align-items: center; */
+    /* align-items: end; */
+    /* for both align and justify item when they are same we use place-items */
+    /* place-items: center; */
+
+}
+
+.items{
+    background-color: red;
+    /* height: 50px;
+    width: 50px; */
+    border: 2px solid black;
+    height: 20%;
+    width: 40%;
+    
+    
+}
+.center{
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.center .span{
+    justify-content: center;
+    align-items: center;
+}
+/* .merged{
+    /* to merge the colums: from 1 to 3 */
+    /* will merge the area till 3 */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    grid-column: 1/span 3;
+    /* no of colums count, merge the row 3 */
+} */
+
+
+
+/* 320px — 480px: Mobile devices. */
+
+/* @media (min-width: 320px) and (max-width: 480px) {
+    
+        .parent{
+           
+            grid-template-columns: repeat(2, 1fr);
+            /* 1 row main 2 colum */
+        
+        
