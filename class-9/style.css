@@ -1,0 +1,76 @@
+.parent{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    /* flex-flow:row-reverse wrap-reverse ; */
+    /*flex flow: short cut for wrap and direction */
+}
+/* display flex: does niot have any table , its direction oriented */
+/* flex defult direct row */
+/* justify content: space between, space evenly... */
+/* flex: have responsive behavoir will adjust all the divs inside it */
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 10px;
+    order: 3;
+   
+}
+.target{
+    /* font-size: 30px; */
+/* align-self: flex-start; */
+}
+.abc{
+    /* order: 2; */
+    /* flex-grow: 2; */
+    animation-name: rabi;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-out;
+    /* ease : for slow : ease out end main slow ho phir  */
+}
+.xyz{
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+}
+/* flex shrink : opsite of grow */
+/* flex grow : jtni jaga bachi hogi itni dyga */
+/* order will change the position of elemnts 
+will work according to the heights jis ki hight kam hogi woh phly aae ga */
+/* abc waly div ki height kam thi toh woh  */
+
+/* Aos: website foe animation */
+/* css ka tag utthao  */
+/* script ka tag bady ky baad nechy lagao */
+/* tailwind color : website */
+
+@keyframes rabi{
+0%{
+    background-color: aqua;
+    top: 0;
+    left: 0%;
+    /* transform: rotate(30deg); */
+    
+}
+50%{
+    background-color: aqua;
+    top: 150px;
+    left: 0%;
+    /* transform: rotate(60deg); */
+    transform: scale(80%);
+}
+100%{
+    background-color: red;
+    /* transform: rotate(360deg); */
+}
+}
